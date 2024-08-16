@@ -56,10 +56,6 @@ This Django application enhances document processing and analysis. It aligns doc
 3. Upload your document images via the web interface.
 4. The aligned images, filtered results, and extracted text files will be available for download.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Feel free to connect if you have any questions or need further assistance!
