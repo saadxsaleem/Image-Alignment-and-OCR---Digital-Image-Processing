@@ -32,7 +32,7 @@ This Django application enhances document processing and analysis. It aligns doc
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/document-alignment-ocr.git
+    git clone https://github.com/saadxsaleem/Image-Alignment-and-OCR---Digital-Image-Processing.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -62,36 +62,10 @@ This Django application enhances document processing and analysis. It aligns doc
 3. Upload your document images via the web interface.
 4. The aligned images, filtered results, and extracted text files will be available for download.
 
-### Configuration
-
-- **Filters**: Adjust filter parameters in the Django admin interface or update settings in `settings.py`.
-- **OCR Settings**: Configure OCR settings in `ocr_config.py` or through the admin interface.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature/YourFeature
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -am 'Add new feature'
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature/YourFeature
-    ```
-5. Create a new Pull Request.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Special thanks to the open-source libraries and tools used in this project.
-- Credits to the contributors who provided feedback and suggestions.
 
 ---
 
