@@ -6,15 +6,18 @@ This Django application enhances document processing and analysis. It aligns doc
 
 ## Features
 
-- **Document Alignment**: 
+- **Document Alignment**:
+
   - Detects document edges and contours.
   - Applies a perspective transformation to correct orientation and achieve a top-down view.
   - Ensures accuracy for subsequent processing.
 
 - **Image Filters**:
+
   - Adjusts brightness, saturation, and rotation to enhance image quality.
 
 - **Optical Character Recognition (OCR)**:
+
   - Extracts and recognizes text from aligned images.
 
 - **Text Extraction**:
@@ -31,37 +34,27 @@ This Django application enhances document processing and analysis. It aligns doc
 ### Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/saadxsaleem/Image-Alignment-and-OCR---Digital-Image-Processing.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd document-alignment-ocr
-    ```
-3. Create a virtual environment and activate it:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-4. Install the required Python libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
-5. Apply migrations to set up the database:
-    ```bash
-    python manage.py migrate
-    ```
+   ```bash
+   git clone https://github.com/saadxsaleem/Image-Alignment-and-OCR---Digital-Image-Processing.git
+   ```
+2. Install the required Python libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Apply migrations to set up the database:
+   ```bash
+   python manage.py migrate
+   ```
 
 ### Usage
 
 1. Start the Django development server:
-    ```bash
-    python manage.py runserver
-    ```
+   ```bash
+   python manage.py runserver
+   ```
 2. Access the application in your web browser at `http://127.0.0.1:8000/`.
 3. Upload your document images via the web interface.
 4. The aligned images, filtered results, and extracted text files will be available for download.
-
 
 ## License
 
@@ -70,4 +63,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Feel free to connect if you have any questions or need further assistance!
-
